@@ -1,0 +1,78 @@
+# .understandignore — patterns for files/dirs to exclude from analysis
+# Syntax: same as .gitignore (globs, # comments, ! negation, trailing / for dirs)
+# Lines below are suggestions — uncomment to activate.
+# Use ! prefix to force-include something excluded by defaults.
+#
+# Built-in defaults (always excluded unless negated):
+#   node_modules/, .git/, dist/, build/, obj/, *.lock, *.min.js, etc.
+#
+# --- From .gitignore (uncomment to exclude) ---
+
+# .gradle
+# /build/
+# !gradle/wrapper/gradle-wrapper.jar
+# .settings/
+# .apt_generated
+# .classpath
+# .factorypath
+# .project
+# .settings
+# .springBeans
+# bin/
+# *.iws
+# *.iml
+# *.ipr
+# rebel.xml
+# nbproject/private/
+# /build/
+# nbbuild/
+# /dist/
+# nbdist/
+# .nb-gradle/
+# mateclaw-ui/dist/
+# *.war
+# *.ear
+# *.tar.gz
+# /logs/
+# mateclaw-server/logs/
+# *.cache
+# *.diff
+# *.patch
+# *.tmp
+# *.java~
+# *.properties~
+# *.xml~
+# .DS_Store
+# Thumbs.db
+# Servers
+# .metadata
+# upload
+# gen_code
+# pom.xml.versionsBackup
+# /server/nacos-server/data
+# /server/nacos-server/logs
+# .flattened-pom.xml
+# .cursor
+# .gstack/
+# mateclaw-server/src/main/resources/static/
+# mateclaw-server/data/
+# /data/
+# docs/.vitepress/cache/
+# docs/.vitepress/dist/
+# .astro/
+# deploy/nginx/ssl/*.crt
+# deploy/nginx/ssl/*.key
+# deploy/nginx/ssl/*.pem
+# deploy/.env
+# CLAUDE.md
+# .claude/settings.local.json
+# .claude/plans/
+# .codex/
+# scripts/.*-sync-state.json
+# outputs/
+
+# --- Test file patterns (uncomment to exclude) ---
+
+# *.test.*
+# *.spec.*
+# *.snap
